@@ -1,5 +1,5 @@
 body {
-  font-family: Arial;
+  font-family: 'Open Sans', sans-serif;
   padding: 20px;
   background: #f1f1f1;
 }
@@ -87,4 +87,8 @@ button.back:after {
   left: 0;
   top: 0;
   border-radius: 5px 0 0 5px;    
+}
+
+.large{
+	width:100%;
 }
