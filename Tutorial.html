@@ -5,11 +5,12 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
+	<p>Pictures still have to be added</p>
 	<h1>Tutorial</h1>
 	<h2>Azure Sentinel start guide</h2>
 	<h3>This tutorial is made for people who have installed Azure Sentinel and now want to start analyzing their data.</h3>
 	<figure>
-	<img alt="Left_Bar" title="Left_Bar" src="media/Left_Bar.png"/>
+	<img alt="Left_Bar" title="Left_Bar" src="media/Left_Bar.PNG"/>
 	<figcaption>Fig.1 Azure Sentinel navigation bar</figcaption>
 	</figure>
 	
@@ -17,11 +18,11 @@
 	<p>Here you find a list with all the possible data sources you can connect to Azure Sentinel. 
 	This includes Windows Events, Linux or server syslogs, Firewall Applications, and many more.</p>
 	<figure>
-	<img class="large" alt="Connector_List" title="Connector_List" src="media/Connector_List.png"/>
+	<img class="large" alt="Connector_List" title="Connector_List" src="media/Connector_List.PNG"/>
 	<figcaption>Fig.2 Data connectors</figcaption>
 	</figure>
 	
-	<p>Select the data source you want to collect data from and press the <img src="media/Connector.png"/> at the bottom.</p>
+	<p>Select the data source you want to collect data from and press the <img src="media/Connector.PNG"/> at the bottom.</p>
 	<p>Every connector has an instruction page for the requirements and how to gather data in Azure Sentinel. 
 	For example, to gather Windows logs you have to install a Microsoft Monitoring Agent on the system, which can then be found in <b>Control Panel - System and Security - Microsoft Monitoring Agent</b></p>
 	<p>For Virtual Machines in Azure, you can just select an available VM from the list and no extra steps have to be taken.</p>
@@ -30,7 +31,7 @@
 	<h4>To start analyzing the collected data from your environment, go to Configuration - Analytics</h4>
 	<p>There are over 100 Rule templates which can be enabled to protect against low to high severity threats.</p>
 	<figure>
-	<img class="large" alt="Analytics" title="Analytics" src="media/Analytics.png"/>
+	<img class="large" alt="Analytics" title="Analytics" src="media/Analytics.PNG"/>
 	<figcaption>Fig.3 Analytic rules</figcaption>
 	</figure>
 	
@@ -43,21 +44,21 @@
 	<p>Another important part is <b>Threat management - Workbooks</b>, these are visual representations of data collected, customizable dashboards
 	for a clean look and the most important data for you. There are again templates available for people who are just getting started.</p>
 	<figure>
-	<img class="large" alt="Workbook" title="Workbook" src="media/Workbook.png"/>
+	<img class="large" alt="Workbook" title="Workbook" src="media/Workbook.PNG"/>
 	<figcaption>Fig.4 Azure Workbook example</figcaption>
 	</figure>
 	
 	<p>To configure the automated responses of Azure Sentinel, we use <b>Configuration - Playbooks</b>. Here we can set the responses to a triggered alert.</p>
 	<p>To trigger an automatic response for Azure Sentinel alerts, use the search function to look for "Azure Sentinel" and select the "When a response to an Azure Sentinel alert is triggered (Preview)"</p>
 	<figure>
-	<img alt="Logic_App" title="Logic_App" src="media/Logic_App.png"/>
+	<img alt="Logic_App" title="Logic_App" src="media/Logic_App.PNG"/>
 	<figcaption>Fig.5 Logic App Designer</figcaption>
 	</figure>
 	
 	<p>From here we can search for other actions to take on certain alerts such as mailing the alert, creating a ticket, integration with other products, etc.</p>
 	<p>These playbooks will now be available as a list when creating an analytics rule.</p>
 	<figure>
-	<img class="large" alt="Playbook" title="Playbook" src="media/Playbook.png"/>
+	<img class="large" alt="Playbook" title="Playbook" src="media/Playbook.PNG"/>
 	<figcaption>Fig.6 Playbook selection list</figcaption>
 	</figure>
   </body>
