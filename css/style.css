@@ -1,20 +1,20 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  padding: 20px;
+  padding: 10px;
   background: #f1f1f1;
 }
 
-.header {
-  padding: 30px;
-  font-size: 40px;
-  text-align: center;
-  background: white;
+.card {
+  background-color: #e3dddc;
+  display: none;
+  overflow: hidden;
+  padding: 10px;
+  border-radius: 0 0 5px 5px; 
+  box-shadow: 0px 3px 0px 0px #389ed5;
 }
 
-.card {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
+.collapsible:hover {
+  background-color: #ccc;
 }
 
 a {
@@ -39,12 +39,14 @@ button {
   text-indent: 5px;
   box-shadow: 0px 3px 0px 0px rgba(0,0,0,.2);
   cursor: pointer;
-
+  color:white;
 /* Just for presentation */  
   display: block;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
+  margin-top:10px;
 }
+
 button:active {
   box-shadow: 0px 2px 0px 0px rgba(0,0,0,.2);
   top: 1px;
@@ -73,6 +75,7 @@ button.back {
   padding-right: 12px;
   box-sizing: border-box;
 }
+
 button.back:after {
   content: "";
   width: 0;
@@ -91,4 +94,15 @@ button.back:after {
 
 .large{
 	width:90%;
+}
+
+.collapsible {
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
 }
